@@ -1,0 +1,23 @@
+2021-01-19/22:10:33		Start of Prediction
+2021-01-19/22:10:33		Entered the get_data Method of Data_Getter Class
+2021-01-19/22:10:34		Data Load Successfully
+2021-01-19/22:10:34		Entered the IsNull Present method of Data Proprocessing 
+2021-01-19/22:10:34		Entered to Map Ip Address to Corresponding Country
+2021-01-19/22:10:35		Mapping of IP Address to Corresponding Country Successfull in 0:00:00.126571
+2021-01-19/22:10:35		Entered to Finding Difference time between SignUp Time and Purchase Time
+2021-01-19/22:10:36		Finding Difference between Signup and Purchase Time Completed Successfully !!
+2021-01-19/22:10:36		Entered to perform One-Hot Encoding on Browser Feature
+2021-01-19/22:10:36		One-Hot Encoding of Browser Feature Successfully Completed
+2021-01-19/22:10:36		Entered to perform One-Hot Encoding on Source Feature
+2021-01-19/22:10:36		One-Hot Encoding of Source Feature Successfully Completed
+2021-01-19/22:10:36		Entered to perform One-Hot Encoding on Sex Feature
+2021-01-19/22:10:36		One-Hot Encoding of Sex Feature Successfully Completed
+2021-01-19/22:10:36		Count Frequency Encoding of Country Feature Started
+2021-01-19/22:10:36		Count Frequency Encoding of Country Feature Successfully Completed
+2021-01-19/22:10:36		Removing Unwanted Columns Started !!
+2021-01-19/22:10:36		Unwanted Columns Deleted Successfully !!
+2021-01-19/22:10:36		Entered the find_correct_model_file method of the File_Operation class
+2021-01-19/22:10:36		Exited the find_correct_model_file method of FileMethods Package
+2021-01-19/22:10:36		Entered the load_model method of File Operation Class
+2021-01-19/22:10:36		Model FileXGBoostLoaded Successfully
+2021-01-19/22:10:37		Successfull End of Prediction

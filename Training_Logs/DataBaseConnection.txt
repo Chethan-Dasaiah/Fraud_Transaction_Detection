@@ -1,0 +1,6 @@
+2021-01-11/13:43:56		Database Connection to Training Successfully.db
+2021-01-11/13:43:57		Database Connection to Training Successfully.db
+2021-01-11/13:43:58		Database Connection to Training Successfully.db
+2021-01-11/13:44:00		Database Connection to Training Successfully.db
+2021-01-11/13:44:02		Database Connection to Training Successfully.db
+2021-01-11/13:44:03		Database Connection to Training Successfully.db

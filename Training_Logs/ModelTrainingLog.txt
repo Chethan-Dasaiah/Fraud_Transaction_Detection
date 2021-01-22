@@ -1,0 +1,32 @@
+2021-01-11/13:44:04		Start of Training
+2021-01-11/13:44:04		Entered the get_data Method of Data_Getter Class
+2021-01-11/13:44:05		Data Load Successfully
+2021-01-11/13:44:05		Entered the IsNull Present method of Data Proprocessing 
+2021-01-11/13:44:05		Entered to Map Ip Address to Corresponding Country
+2021-01-11/13:44:06		Mapping of IP Address to Corresponding Country Successfull in 0:00:00.359362
+2021-01-11/13:44:06		Entered to Finding Difference time between SignUp Time and Purchase Time
+2021-01-11/13:44:07		Finding Difference between Signup and Purchase Time Completed Successfully !!
+2021-01-11/13:44:07		Entered to perform One-Hot Encoding on Browser Feature
+2021-01-11/13:44:07		One-Hot Encoding of Browser Feature Successfully Completed
+2021-01-11/13:44:07		Entered to perform One-Hot Encoding on Source Feature
+2021-01-11/13:44:08		One-Hot Encoding of Source Feature Successfully Completed
+2021-01-11/13:44:08		Entered to perform One-Hot Encoding on Sex Feature
+2021-01-11/13:44:08		One-Hot Encoding of Sex Feature Successfully Completed
+2021-01-11/13:44:08		Count Frequency Encoding of Country Feature Started
+2021-01-11/13:44:08		Count Frequency Encoding of Country Feature Successfully Completed
+2021-01-11/13:44:08		Removing Unwanted Columns Started !!
+2021-01-11/13:44:08		Unwanted Columns Deleted Successfully !!
+2021-01-11/13:44:08		Entered to Separate Label Feature Method
+2021-01-11/13:44:08		Label Separation Done Successfully
+2021-01-11/13:44:08		Entered the get_best_model of best_model_finder class
+2021-01-11/13:44:08		Entered the get_best_params_for_RandomForest Method
+2021-01-11/13:47:17		RandomForest Best params:{'min_samples_leaf': 1, 'n_estimators': 100}Exited the Best Params of Random Forest Class
+2021-01-11/13:47:25		Best Decision Threshold Value for Random Forest is:: 0.21000000000000002
+2021-01-11/13:47:26		ROC AUC Score of RandomForest ::0.5	Recall of Random Forest::1.0	Precision of Random Forest::0.09383685534036264	F1-Score of Random Forest ::0.17157376784705977
+2021-01-11/13:47:26		Entered the get_best_params_for_xgboost method
+2021-01-11/13:50:50		XGBoost best params:{'max_delta_step': 4, 'n_estimators': 60}Exited the best_params_for_XGBoost
+2021-01-11/13:50:50		Best Decision Threshold Value for XGBoost is:: 0.32078528
+2021-01-11/13:50:50		ROC AUC Score of XGBoost ::0.7659522580042657	Recall of XGBoost::0.5324400564174894	Precision of XGBoost::0.9903804110188019	F1-Score of XGBoost::0.6925546552514906
+2021-01-11/13:50:50		Entered the save_model method of File Operation Class
+2021-01-11/13:50:51		Model FileXGBoost Saved.Exited the save_model method of file_operation class
+2021-01-11/13:50:51		Successfull End of Training
