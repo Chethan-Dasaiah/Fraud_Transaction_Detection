@@ -216,7 +216,13 @@ def predictRowRoute():
 
                 predict = Prediction_Row()
                 result = predict.predictRow(datarow)
-                return Response('Prediction is: ' + str(json.loads(result)))
+                if int(result) == 1:
+                    result_str = 'Fraudulent Transaction'
+                elif int(result) == 0:
+                    result_str = 'Non-Fraudulent Transaction'
+                else:
+                    result_str = 'Not Able to predict'
+                return Response('Prediction is: ' + str(result_str))
         else:
             print('Nothing Passed')
     except ValueError:

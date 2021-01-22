@@ -91,6 +91,7 @@ class Prediction_Row:
                 ['purchase_value', 'age', 'd_day', 'd_hour', 'd_minutes', 'd_seconds', 'FireFox', 'IE', 'Opera',
                  'Safari', 'Direct', 'SEO', 'M', 'country_encode'], axis=1)
             result = model.predict(self.datarow)
+
             self.log_writer.log(self.file_object, 'Successfull End of DataRow Prediction')
             self.file_object.close()
         except Exception as e:
