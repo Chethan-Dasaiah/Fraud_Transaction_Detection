@@ -1,2 +1,0 @@
-2021-01-19/22:10:26		Main File Columns Length Validated Sucessfully
-2021-01-19/22:10:26		Additional File Columns Length Validated Sucessfully

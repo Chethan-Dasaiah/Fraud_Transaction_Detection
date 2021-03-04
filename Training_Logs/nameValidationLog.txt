@@ -1,4 +1,0 @@
-2021-01-11/13:43:52		Invalid File Name!! File moved to Bad Raw Main File Directory
-2021-01-11/13:43:52		Valid File Name !! File moved to GoodRaw_Main Directory ::Fraud_Data_07122020_120000.csv
-2021-01-11/13:43:52		Invalid File Name!! File moved to Bad Raw Additional File Directory
-2021-01-11/13:43:53		Valid File Name !! File moved to GoodRaw_Additional Directory ::IPAddress_To_Country_09122020_120156.csv
